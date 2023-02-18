@@ -1,13 +1,30 @@
 body {
   font-family: MontSerrat;
+  font-weight: 600;
 }
+
+table {
+  border-spacing: 0px;
+  border: 2px solid cornflowerblue;
+  border-radius: 4px;
+}
+
+thead {
+  font-size: 1.5rem;
+}
+
 th,
 td {
-  outline: 2px solid cornflowerblue;
-  border-radius: 4px;
-  background-color: rgb(0, 0, 0);
+  border: 2px solid cornflowerblue;
+  background-color: black;
   color: white;
   padding: 2rem;
-  font-size: 2rem;
-  text-align: center;
+}
+
+th {
+  text-align: start;
+}
+
+td {
+  font-size: 1.25rem;
 }
