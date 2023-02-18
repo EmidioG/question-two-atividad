@@ -1,8 +1,10 @@
+th,
 td {
-  outline: 2px solid salmon;
-  border-radius: 3px;
-  background-color: blueviolet;
+  outline: 2px solid cornflowerblue;
+  border-radius: 4px;
+  background-color: rgb(0, 0, 0);
   color: white;
   padding: 2rem;
   font-size: 2rem;
+  text-align: center;
 }
